@@ -45,3 +45,7 @@ and the fact that the dimensions are not sufficient for the model to learn to pr
 Therefore, the model improvement may be achieved with additional training examples and additional, more specific, input features.
 
 Further research is warranted to assess potential performance improvements and clinical efficacy in a prospective trial.
+
+# Presentation of a functionality
+
+The classificcation model was wrapped in Flask application with UI, where the doctor or a nurse can type patients age and CBC result, and get a recommendation to either let the patient go home for a night, or to hospitalize him for further supervision.
