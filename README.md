@@ -49,3 +49,5 @@ Further research is warranted to assess potential performance improvements and c
 # Presentation of a functionality
 
 The classificcation model was wrapped in Flask application with UI, where the doctor or a nurse can type the patient's age and CBC result, and get a recommendation to either let the patient go home for a night, or to hospitalize him for further supervision.
+
+The link to the PowerPoint presentation: https://drive.google.com/file/d/1pOWxd5TPCQriBe17N94aJ04T8NBtGiH8/view?usp=sharing

@@ -20,3 +20,4 @@ def give_prediction(patient_array):
     scaled_array = scaler.transform(patient_array)
     test = random_Forest.predict(scaled_array)
     return test
+
