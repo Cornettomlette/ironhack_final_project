@@ -4,12 +4,12 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import StandardScaler
 import joblib
 
-def load_Scaler_from_file(file_name = 'scaler_med.sav'):
+def load_Scaler_from_file(file_name = 'scaler_med2.sav'):
     return joblib.load(open(file_name, 'rb'))
     
 scaler = load_Scaler_from_file()
 
-def load_Random_Forest_from_file(file_name = 'Class_4_smote_rf_full_data_class_weights_small+.sav'):
+def load_Random_Forest_from_file(file_name = 'Class_5_smote_rf_full_data_class_weights_small+.sav'):
     return joblib.load(open(file_name, 'rb'))
     
 random_Forest = load_Random_Forest_from_file()
